@@ -55,5 +55,3 @@ app.post('/signin', async (c) => {
 
   return c.json({ message: 'You are now logged in :)', user: { id: user.id, name: user.name, email: user.email } });
 });
-
-export default app;
